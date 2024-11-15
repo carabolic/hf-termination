@@ -1,0 +1,2178 @@
+Christoph Brücke-Wendorff
+:zap:  12:57 PM
+Hi Manoj. Can we re-schedule our meeting today (understanding DE) to maybe tomorrow before noon (somewhere between 11am and 1pm)?
+
+
+Manojkumar Gupta (Manoj)
+  1:05 PM
+Hello Christoph
+1:05
+Sure, I will reschedule
+:ty:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  3:31 PM
+Hi Christoph
+
+
+Christoph Brücke-Wendorff
+:zap:  3:31 PM
+Hi/
+
+
+Manojkumar Gupta (Manoj)
+  3:33 PM
+What is DE work needed for Lyre/Harp/Koto project and stabalization of our data pipeline?
+
+
+Christoph Brücke-Wendorff
+:zap:  3:35 PM
+well first of all. we need to have some redundancies in case I'm not available which is also the plan since the Food Alliance re-org that finished about a month ago
+For the current work load it would be really good to have at least on other DE so one could do support while the other is doing discovery tasks
+We should also work more closely with the data alliance / integrate better into the data mesh by creating high quality data assets and certify them for wider use in the organization. For now we only use them internally but they would have value to other squads as well
+(edited)
+
+
+Christoph Brücke-Wendorff
+:zap:  3:44 PM
+Also for some context. We asked for a DE at the beginning of the year and AFAIK we got headcount for one more DE. There was the added challenge, added by Ivan, that the DE has to have substantial BE experience which I don't see why that is sooo important. And AFAIK Vanya had candidates that would fit our needs but would fail the added constraint of having to have BE experience
+
+
+Manojkumar Gupta (Manoj)
+  3:55 PM
+redundancy is really good point you brought up (edited) 
+3:55
+do we work in situation where we integrate our solution with other or develop so that others can also use it?
+
+
+Christoph Brücke-Wendorff
+:zap:  3:57 PM
+At HF we follow the Data Mesh architecture were the domain teams are responsible for creating data assets and supporting them. So whenever we create new assets, as we did for Lyre, we ideally should document and publish them so that other teams can use them
+3:59
+in the past platter for instance was depending on our data. Since there was no real plan for DE in the Food Alliance I proposed to separate both data pipelines (lyre and platter) so that each team would be more flexible.
+
+
+Manojkumar Gupta (Manoj)
+  6:48 PM
+Today where we are with pipelines for Lyre and Harp and also lets consider AddOn
+6:49
+And Any ballpark estimates you would like to share if we have to deliver these projects?  (edited) 
+6:49
+Please consider possible improvements and platformizing effort for these pipeline
+6:51
+I am looking for some sort of roadmap for DE work. It need not be accurate. It should be list of things we should be doing for these projects and building infrastructure for our team with their estimates  (edited) 
+6:52
+This will help me propose stronger case for the need of one more engineer  (edited) 
+
+
+Christoph Brücke-Wendorff
+:zap:  11:23 AM
+sure.  give me some time
+
+
+Manojkumar Gupta (Manoj)
+  5:40 PM
+Please download and upload your recording as well under this. Let me know if you dont have access. I will figure it out.
+
+
+
+Christoph Brücke-Wendorff
+Hi team. Here is the recording of our Knowledge Sharing session for Data Engineering
+https://drive.google.com/open?id=10srhKH629fXfCyufmieOyl2ZB6o20om7
+(edited)
+QuickTime Movie
+ 
+
+Knowledge Sharing: Lyre ETL (2023-06-15 14:06 GMT+2)
+Google QuickTime Movie
+
+
+Posted in squad-personalization-internal | Jun 15th, 2023 | View message
+
+
+Christoph Brücke-Wendorff
+:zap:  5:48 PM
+Done
+:ty:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  11:04 AM
+@Seif Haddada
+ is the SL for the Global BI DE Squad that used to be Product Analytics DE
+11:05
+He's been with HF for a while and knows a lot about DE architecture and strategy
+
+
+Manojkumar Gupta (Manoj)
+  11:05 AM
+Thanks. I will connect with him once.
+:ok_hand:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  4:41 PM
+Hey Manoj. I've just requested my summer vacation in workday. It is aligned with our experiments so that my presence is not super required in this two weeks (24. July - 4. Aug)
+
+
+Manojkumar Gupta (Manoj)
+  4:42 PM
+Sure sure. We will onboard 
+@Manjunatha Sannavenkatappa
+ by that time. Do you have any onboarding plan for him?
+
+
+Christoph Brücke-Wendorff
+:zap:  4:44 PM
+yes we will pair the next weeks and go ever some past PRs and what I'm currently working in so that he get's up to speed with the dev process, our infra, tech real estate and stakeholders
+4:45
+for now we had daily sessions and went over his questions and problems (mostly missing permissions)
+4:45
+IMHO the onboarding is not as smooth for remote.com employees as it has been for me for example
+:astonished:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  4:48 PM
+you onboard me on these. Have plan for me. I am super excited to know this area :slightly_smiling_face:
+
+
+Christoph Brücke-Wendorff
+:zap:  4:49 PM
+sure. If we have a session that I think makes sense for you as well I'll record the session or try to invite you as well
+
+
+Manojkumar Gupta (Manoj)
+  4:49 PM
+yes yes.. please
+:+1:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  4:06 PM
+Hi Manoj. My wife is sick and I'll have to bring my daughter to daycare tomorrow. This means that I'm going to arrive later in Berlin and might miss the standup due to bad internet receipting while using the train
+4:07
+But I'll come to the office and we can leave together for the team event
+
+
+Manojkumar Gupta (Manoj)
+  4:09 PM
+No worries at all Christoph.
+:+1:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  6:10 PM
+Hey Christoph
+6:10
+Can you give me access to Airflow.
+6:11
+I am trying to open this https://product-analytics-airflow.dwh-k8s.hellofresh.io/dags/Lyre-US-Spark/grid
+6:11
+it says I dont have any Role
+
+
+Christoph Brücke-Wendorff
+:zap:  9:40 AM
+Hi Manoj. I asked 
+@Akash Ganguly
+ to add you to the respective groups. I'll let you know when it's done
+9:44
+you should be part of the acl_airflow_product_analytics_live_user group now. It might take upto 20mins to take effect
+:ty:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:09 AM
+how to get catalog access ?
+
+
+Christoph Brücke-Wendorff
+:zap:  10:10 AM
+we switched to atlan as far as I know. https://hellofresh.atlassian.net/servicedesk/customer/portal/90
+
+
+Manojkumar Gupta (Manoj)
+  10:12 AM
+To get access, Do we have any URL or project to be part of?
+
+
+Christoph Brücke-Wendorff
+:zap:  10:17 AM
+https://hellofresh.atlan.com/assets that's the new data catalog
+10:17
+with the previous link you can request access
+
+
+Manojkumar Gupta (Manoj)
+  4:45 PM
+https://hellofresh.atlassian.net/wiki/spaces/~712020349de11359fa40ce867a295b71d5c2ae/pages/4028530695/My+Accomplishments+Backlog
+4:45
+https://docs.google.com/spreadsheets/d/1amvfY8eJ7GVx6bZY5VlfwLsu1VlCPT4B2yAw1cpQqk8/edit#gid=0 (edited) 
+
+
+Christoph Brücke-Wendorff
+:zap:  4:22 PM
+Hey Manoj. A paper I wrote at my old company was accepted at the VLDB conference. I want to present it since I'm the main author. The conference is Aug 28th to Sept 1st. So I want to take my LND days as well as some vacation days. Is this okay with you?
+
+
+Manojkumar Gupta (Manoj)
+  4:26 PM
+I am not sure LND days are counted for this. Do you know if we have done this in past?
+
+
+Christoph Brücke-Wendorff
+:zap:  4:26 PM
+I think some people use them to attend conferences. I thought that's the purpose
+
+
+Manojkumar Gupta (Manoj)
+  4:29 PM
+Ahh ok. Let me talk to HR for this and confirm.
+
+
+Christoph Brücke-Wendorff
+:zap:  4:29 PM
+Thanks.
+4:30
+the conference will be paid for incl. travel and accomendation
+
+
+Manojkumar Gupta (Manoj)
+  4:30 PM
+where is the conference and how many days of LND days you want to take ?
+
+
+Christoph Brücke-Wendorff
+:zap:  4:32 PM
+it's in Vancouver, CA and I would take a the whole week off. Monday and Friday for traveling and Tue-Thu for the Conference. I have 1,5 days LnD in Workday. So I'd take these and 3.5days vacation
+
+
+Manojkumar Gupta (Manoj)
+  4:42 PM
+I guess LND budget is allowed within Europe. Outside Europe zone is not allowed. Can you please check the policy once and confirm?
+
+
+Christoph Brücke-Wendorff
+:zap:  4:43 PM
+Learning & Development time budget is up to 1.5 days of paid leave/ year to attend
+in-person workshops or conferences
+https://drive.google.com/file/d/19ReF7nglvbVZfrGPQX2ZdPVMs4osVJH0/view
+
+
+Matthew Stone
+ | PDF
+ 
+
+HelloFresh SE Learning & Development Policy_June_22.docx.pdf
+Google PDF
+4:44
+I don't need the budget. The expenses are already covered
+4:44
+I just want to take the week of for the conference
+
+
+Manojkumar Gupta (Manoj)
+  4:46 PM
+Ahh. It is 1.5 days. Please go ahead.
+
+
+Christoph Brücke-Wendorff
+:zap:  4:46 PM
+Cool thanks. Sorry for the confusion
+
+
+Manojkumar Gupta (Manoj)
+  4:47 PM
+hey.. no worries.. Thanks for sharing this policy doc.
+4:47
+This helps a lot
+
+
+Christoph Brücke-Wendorff
+:zap:  4:48 PM
+yeah the people team portal is really helpful. https://sites.google.com/hellofresh.com/people-team-portal/home/employee-resources/policies?authuser=0
+:+1:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:05 PM
+Reminder :blush:
+
+
+
+Manojkumar Gupta (Manoj)
+I have received reimbursement for our boat party. Please DM me bank details for money transfer. (edited) 
+Thread in squad-personalization-internal | Aug 12th, 2023 | View message
+
+
+Manojkumar Gupta (Manoj)
+  11:31 AM
+Hey Chris, Bank account details to transfer money, do you use Revolut ? :slightly_smiling_face:
+
+
+Christoph Brücke-Wendorff
+:zap:  11:31 AM
+oh sorry. No I don
+11:32
+IBAN: DE97810400000802635300
+Account holder: Christoph Bruecke-Wendorff
+
+
+Manojkumar Gupta (Manoj)
+  11:36 AM
+Transferring 23.33
+:ty:
+1
+
+11:37
+File
+ 
+File
+
+
+
+
+Christoph Brücke-Wendorff
+:zap:  10:43 AM
+Hey Manoj. I missed to finalize the nomination for 360. I already but all the people in there but apparently didn't hit the right button.
+10:47
+Ok strike that. It did nominate the people I had already selected but I wanted to add more, I thinks it's to late for that now, right?
+
+
+Manojkumar Gupta (Manoj)
+  10:58 AM
+no no. you can add. I will approve if my approval is needed
+
+
+Manojkumar Gupta (Manoj)
+  11:36 AM
+Carolin Hill
+Leonie Schäfer
+11:37
+hrbp-tech@hellofresh.com
+
+
+Manojkumar Gupta (Manoj)
+  12:02 PM
+https://docs.google.com/spreadsheets/d/1PWq-5as8vKtDiUV7BNbBvqZSCH9V-d-wPMjbkdeKsN4/edit#gid=1343862574
+
+
+Christoph Brücke-Wendorff
+:zap:  9:14 AM
+Good morning manoj. My daughter has scarlet fever, I'm taking the day off.
+:np:
+1
+:takecare:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  10:01 AM
+Hi manoj. Unfortunately I need to take some time off for the rest of the week as well. I'll upload my doctor's notice to workday later today.
+
+
+Manojkumar Gupta (Manoj)
+  10:11 AM
+Sure Christ. Hope she is recovering. Please care take of her
+:ty:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  1:43 PM
+Hey Manoj. I'll have to take off until Wednesday. Sorry for the long absence but my wife is in the hospital so I have to take care of my daughter by myself.
+
+
+Manojkumar Gupta (Manoj)
+  2:08 PM
+Hey no worries. Hope all is good.
+
+
+Manojkumar Gupta (Manoj)
+  12:56 PM
+Hey Chris
+12:56
+how are you?
+
+
+Christoph Brücke-Wendorff
+:zap:  1:39 PM
+Hey Manoj. I'm doing ok.
+
+
+Manojkumar Gupta (Manoj)
+  1:40 PM
+Hey, can share confluence page and spreadsheets if it is updated.
+1:40
+I was looking at your small improvement review. I need some data backing those contributions like PR or Doc/confluence link
+
+
+Christoph Brücke-Wendorff
+:zap:  1:44 PM
+ok sure.  Btw. can we re-schedule our feedback meeting once more? I'll have an appointment at 5 already.
+
+
+Manojkumar Gupta (Manoj)
+  2:09 PM
+Ah ok. please update it offline and share my accomplishment confluence page. I will put comment if something is not clear. We can connect for quick call, sometime next week thursday or friday if required.
+
+
+Manojkumar Gupta (Manoj)
+  2:01 PM
+Hi Chris
+
+
+Christoph Brücke-Wendorff
+:zap:  2:03 PM
+Hi Manoj
+
+
+Manojkumar Gupta (Manoj)
+  2:26 PM
+How are you?
+2:27
+are you working today? or taken leave?
+
+
+Christoph Brücke-Wendorff
+:zap:  2:38 PM
+Hi I'm taken a leave until end of week. I just uploaded my doctors note. I'm so sorry for being not able to work for such a long time now. But I'm already feeling better and next week is going back to normal
+
+
+Manojkumar Gupta (Manoj)
+  2:50 PM
+sure sure. Please take care. we had a connect today so thought of checking.
+
+
+Manojkumar Gupta (Manoj)
+  10:06 AM
+Hi Chris
+10:06
+Good morning!
+10:06
+How are you?
+
+
+Christoph Brücke-Wendorff
+:zap:  10:17 AM
+Hey. I'm doing good. Catching up with Manju atm
+
+
+Manojkumar Gupta (Manoj)
+  10:25 AM
+Sure, Most imp one. Please work on Foodie review :wink:
+
+
+Manojkumar Gupta (Manoj)
+  5:01 PM
+Hi Chris
+5:01
+joining our call?
+
+
+Christoph Brücke-Wendorff
+:zap:  8:35 PM
+Hey Manoj. Sorry I completely missed our appointment today. I still need tomorrow to finish the document. Sorry for that
+
+
+Manojkumar Gupta (Manoj)
+  8:39 PM
+I have a call tomorrow morning 9am with leadership. We dont have time. I have put things up in doc.
+8:40
+If possible, try to put impact numbers or data (PR or confluence page with design) backing the claim. Else will be very difficult to explain and justify the work which is done.
+
+
+Christoph Brücke-Wendorff
+:zap:  9:13 AM
+Ok. I'm editing the document. Thanks for filing in the gaps
+:ok_hand:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  9:19 AM
+I will delay my turn as much as possible :muscle::face_with_peeking_eye:
+9:19
+Will let other Managers present first :wink:
+
+
+Christoph Brücke-Wendorff
+:zap:  9:27 AM
+Thank you very much
+
+
+Christoph Brücke-Wendorff
+:zap:  9:40 AM
+wdyt? Does it look better?
+
+
+Manojkumar Gupta (Manoj)
+  9:43 AM
+Looks awesome :smile:
+:blush:
+1
+
+9:44
+identifying data from MAS for an add-on model can you add what data it was?
+:white_check_mark:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:00 AM
+we exported add_on all DB data, is it?
+
+
+Christoph Brücke-Wendorff
+:zap:  10:03 AM
+yes. SInce there was no kafka topic for MAS at this point, the only way to get the data was to use a db snapshot of the live db to do some exploratory data analysis
+:+1:
+1
+
+10:03
+Doing so we found ways to recreate the data without only data from menu service. But then the project was de-prioritized
+
+
+Manojkumar Gupta (Manoj)
+  10:03 AM
+I will remove access for you from document. Its my turn to present
+:+1:
+1
+:fingers_crossed:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:32 AM
+Hi Chris
+10:32
+Good morning
+10:32
+Please find some time to give feedback for Manju
+10:32
+Today is last date to punch feedback for him
+
+
+Christoph Brücke-Wendorff
+:zap:  12:44 PM
+Hi Manoj. Sure thing.
+
+
+Manojkumar Gupta (Manoj)
+  3:09 PM
+Hi Chris
+3:09
+Can you please add an entry here for tomorrow’s demo?
+
+
+Christoph Brücke-Wendorff
+:zap:  3:11 PM
+Done
+:ty:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  7:27 PM
+Hey Manoj. I just came back from my wife in the hospital. It might be that I need to pick her up tomorrow during the tribe demo. Should I reschedule my demo for the next one or see if I can make it tomorrow?
+
+
+Manojkumar Gupta (Manoj)
+  9:01 PM
+Hey Chris, lets do it next demo. Hope everything is fine.
+
+
+Christoph Brücke-Wendorff
+:zap:  11:54 PM
+yes she's feeling better and I hope I can  take her home tomorrow morning. I've crossed out my presentation in the agenda doc.
+:+1:
+1
+:ty:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  6:59 PM
+Hey Chris
+I am setting a call tomorrow for foodie. Call will be at 1:30pm. Let me know if you want to reschedule
+
+
+Christoph Brücke-Wendorff
+:zap:  9:48 AM
+Hey Manoj. Works for me
+:ty:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  1:52 PM
+I've nothing to add to the Performance Review. I'll sign it now?
+
+
+Manojkumar Gupta (Manoj)
+  1:53 PM
+Yes, You can.
+
+
+Manojkumar Gupta (Manoj)
+  11:43 AM
+Hi Chris, Good morning!
+Can you work with Manju and feel in this epic.
+P13N-1746 DE KLTO 2024
+Status: Backlog
+Type: Epic
+Assignee: Manojkumar Gupta
+Priority: Normal
+More actions...
+Added by Jira Cloud
+
+
+Christoph Brücke-Wendorff
+:zap:  11:52 AM
+sure. We'll start this week. But probably woulnd't finish until mid Jan '24. Does this work?
+
+
+Manojkumar Gupta (Manoj)
+  11:52 AM
+sure sure. no problem
+
+
+Manojkumar Gupta (Manoj)
+  12:02 PM
+I have renamed it Tech improvement. We will incorporate this tech improvement task into Product OKRs work
+
+
+Christoph Brücke-Wendorff
+:zap:  12:05 PM
+:+1:
+
+
+Manojkumar Gupta (Manoj)
+  12:14 PM
+Hey Chris
+12:14
+Good Afternoon!
+12:14
+available for quick call?
+
+
+Christoph Brücke-Wendorff
+:zap:  12:16 PM
+Hey Manoj. Sure
+
+
+Manojkumar Gupta (Manoj)
+  12:17 PM
+To join the video meeting, click this link: https://meet.google.com/atq-yeua-ysq
+Otherwise, to join by phone, dial +49 40 8081617325 and enter this PIN: 819 281 518#
+To view more phone numbers, click this link: https://tel.meet/atq-yeua-ysq?hs=5
+meet.google.commeet.google.com
+Meet
+Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.
+
+
+Manojkumar Gupta (Manoj)
+  12:06 PM
+Honeycomb: https://ui.honeycomb.io/hellofresh/datasets/traces-live
+
+
+Manojkumar Gupta (Manoj)
+  11:00 AM
+Hey Chris
+11:00
+quick call?
+
+
+Christoph Brücke-Wendorff
+:zap:  11:07 AM
+sure
+
+hangouts
+APP  11:10 AM
+@Manoj
+ has started a Google+ Hangout and would like you to join. Join Hangout.
+
+
+Manojkumar Gupta (Manoj)
+  11:15 AM
+https://docs.google.com/spreadsheets/d/1egDKGRfpuJNJPv6Umq18z5U5lDn-yzbPegOEB_4G8NU/edit#gid=0
+
+
+Manojkumar Gupta (Manoj)
+  4:43 PM
+Some reading about PDP: https://docs.google.com/document/d/1TJWBWL9rLXMxB8M23XaPOZm68FytClLgDqvmG8Ldiyk/edit#heading=h.vi5n1iqrhz8s
+
+
+Christoph Brücke-Wendorff
+:zap:  4:46 PM
+thank you
+
+
+Manojkumar Gupta (Manoj)
+  5:41 PM
+Can you share link of PA staging environment which we were looking at today morning!
+
+
+Christoph Brücke-Wendorff
+:zap:  9:25 AM
+sure: https://product-analytics-airflow.dwh-staging-k8s.hellofresh.io/
+
+
+Manojkumar Gupta (Manoj)
+  11:04 AM
+Hi Chris
+
+
+Christoph Brücke-Wendorff
+:zap:  11:04 AM
+Hey
+
+
+Manojkumar Gupta (Manoj)
+  11:05 AM
+call?
+
+
+Christoph Brücke-Wendorff
+:zap:  11:05 AM
+Yep
+
+hangouts
+APP  11:05 AM
+@Manoj
+ has started a Google+ Hangout and would like you to join. Join Hangout.
+:+1:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  11:07 AM
+I'm there
+
+
+Christoph Brücke-Wendorff
+:zap:  4:01 PM
+How do you like it now?
+https://hellofresh.atlassian.net/wiki/spaces/FAL/pages/4251649474/Personalization+-+Ideas+and+Research
+
+Personalization - Ideas and Research in Food Alliance
+Last updated 3 minutes ago by Christoph Brücke-Wendorff
+More actions...
+Added by Confluence Cloud
+
+
+2 replies
+Last reply 9 months agoView thread
+
+
+Manojkumar Gupta (Manoj)
+  4:53 PM
+Hey Chris, Did we archive Lyre-ETL repo?
+
+
+Christoph Brücke-Wendorff
+:zap:  4:58 PM
+No we didn't yet
+4:59
+tbh I don't know how
+
+
+Manojkumar Gupta (Manoj)
+  4:59 PM
+Ah ok :slightly_smiling_face:
+4:59
+who is owner of it?
+5:00
+If we dont know then can you raise a ticket and close it
+
+
+Christoph Brücke-Wendorff
+:zap:  5:00 PM
+we are
+
+
+Manojkumar Gupta (Manoj)
+  5:00 PM
+We are flagged here for security vul
+
+
+Christoph Brücke-Wendorff
+:zap:  5:01 PM
+I think I. just have to open a PR to change this line to true https://github.com/hellofresh/github-automation/blob/master/repositories/lyre-etl/main.tf#L9
+
+main.tf
+  archived            = false
+<https://github.com/hellofresh/github-automation|hellofresh/github-automation>hellofresh/github-automation | Added by GitHub
+
+
+Manojkumar Gupta (Manoj)
+  5:01 PM
+Ah nice.. Lets do it then
+5:02
+Let me know, I will approve the PR quickly to move fast :slightly_smiling_face:
+
+
+Christoph Brücke-Wendorff
+:zap:  5:04 PM
+I'll need a ticket first
+5:04
+let me create a task in the current sprint
+5:07
+https://github.com/hellofresh/github-automation/pull/8462
+
+#8462 P13N-1955 Archive Lyre-ETL
+• archive lyre-etl
+<https://github.com/hellofresh/github-automation|hellofresh/github-automation>hellofresh/github-automation | Feb 14th | Added by GitHub
+5:10
+hmm some terraform check failed. gotta go now. I'll have a look tomorrow
+:+1:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  9:17 AM
+I'm just waiting for approval from the github team
+
+
+
+Christoph Brücke-Wendorff
+Hi @github-pr-review I want to archive the lyre-etl repo. Can I get a review please? https://github.com/hellofresh/github-automation/pull/8462
+Posted in github | Feb 15th | View message
+
+
+Manojkumar Gupta (Manoj)
+  12:56 PM
+Hey, sorry missed our 1:1
+12:56
+I will setup in second half
+
+
+Christoph Brücke-Wendorff
+:zap:  12:56 PM
+thanks
+
+
+Manojkumar Gupta (Manoj)
+  2:46 PM
+@Siddharth Dubey
+
+
+Manojkumar Gupta (Manoj)
+  3:57 PM
+How we are accessing MPS or CPS data? Photon or Service database directly?
+
+
+Christoph Brücke-Wendorff
+:zap:  4:08 PM
+Kafka topic is sinked to s3 (data lake) by data platform. We'll use Tardis to read the raw parquet files and put them in Photon (edited) 
+
+
+Manojkumar Gupta (Manoj)
+  4:31 PM
+how you access Photon? I am trying this link I think I dont have access
+
+
+Christoph Brücke-Wendorff
+:zap:  9:28 AM
+Good morning 
+@Manoj
+
+
+Christoph Brücke-Wendorff
+:zap:  9:28 AM
+you need to joim this AD group https://myaccount.microsoft.com/groups/da8ade04-a3b5-4359-9e13-b27d059dc1e8
+
+
+2 replies
+Last reply 9 months agoView thread
+
+
+Christoph Brücke-Wendorff
+:zap:  9:29 AM
+The webui is perfect to check DWH tables and test some queires
+
+
+Manojkumar Gupta (Manoj)
+  12:17 PM
+Basically I want to access some tables,
+like (materialized_views.menu_services_slot_item_changed), fact_tables.preset_default_combos)
+
+1 reply
+9 months agoView thread
+
+
+Manojkumar Gupta (Manoj)
+  1:49 PM
+Hi Chris
+
+
+Manojkumar Gupta (Manoj)
+  1:49 PM
+quick call?
+
+1 reply
+9 months agoView thread
+
+hangouts
+APP  1:52 PM
+@Manoj
+ has started a Google+ Hangout and would like you to join. Join Hangout.
+
+
+Manojkumar Gupta (Manoj)
+  1:57 PM
+materialized_views.menu_services_slot_item_changed
+1:57
+fact_tables.preset_default_combos
+
+
+Christoph Brücke-Wendorff
+:zap:  9:53 AM
+Good morning 
+@Manoj
+ can you access photon now?
+
+1 reply
+9 months agoView thread
+
+
+Manojkumar Gupta (Manoj)
+  2:55 PM
+Are we presenting DE work this friday?
+
+
+Christoph Brücke-Wendorff
+:zap:  2:56 PM
+I'll prepare something short for our data sources for harp in US and GB
+:+1:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  4:21 PM
+Hi Chris, Can you write small doc the challenges we have with CDP. Not urgent, we can do it by 5-March.
+
+
+Manojkumar Gupta (Manoj)
+  10:56 AM
+Hi Chris, are we running pipeline for NL ?
+P13N-922 Lyre-NL-Spark-recipes-menu-etl failed
+Status: Open
+Type: Bug
+Assignee: Unassigned
+Priority: Normal
+More actions...
+Added by Jira Cloud
+
+
+Christoph Brücke-Wendorff
+:zap:  11:00 AM
+No we planned for lyre and did some preparation but we never did run it only for some small experiments
+
+
+Manojkumar Gupta (Manoj)
+  11:02 AM
+what should we do for this ticket? By definition, Bug should be closed within 90 days :slightly_smiling_face:
+Ticket resolution SLA per priority in Tech Product
+Last updated 19 days ago by Davor Juric | 10 likes | 6 comments
+More actions...
+Added by Confluence Cloud
+11:03
+I moved some bugs to spike or task to avoid any controversy :slightly_smiling_face:
+
+
+Christoph Brücke-Wendorff
+:zap:  11:03 AM
+It's safe to close. It might be already fixed by some issue we had and fixed for CA
+:thankyoublue:
+1
+:done-:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:52 AM
+Hi Chris, do we know which field captures information about Breakfast, Dinner or Lunch?
+
+
+6 replies
+Last reply 9 months agoView thread
+
+
+Manojkumar Gupta (Manoj)
+  2:45 PM
+where I can search available table and their data? ex: fact_tables.recipes_in_menu
+
+
+Christoph Brücke-Wendorff
+:zap:  2:47 PM
+you can search the data catalog for available tables https://hellofresh.atlan.com/assets
+2:48
+and then you can use photon to query the data
+2:48
+you can also use the catalog browser in databricks
+2:48
+image.png
+ 
+image.png
+
+
+Manojkumar Gupta (Manoj)
+  2:51 PM
+Perfect! Thanks. Behind the scene all the data stored on S3 only, right?
+
+
+Christoph Brücke-Wendorff
+:zap:  2:54 PM
+mostly. except for snowflake they use a proprietary storage system which might be backed by s3 but I don't know
+2:55
+when I joined there were also some legacy tables in CDP (Cloudera Data Platform) and HDFS
+
+
+Manojkumar Gupta (Manoj)
+  2:57 PM
+Ah.. another thing, we list down on challenge have with CDP.
+2:57
+customer data platform :slightly_smiling_face:
+
+
+Christoph Brücke-Wendorff
+:zap:  2:58 PM
+Yep for real. That's one reason I didn't get any of the talks about CDP. It's just bad branding :shrug:
+:zany_face:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  3:07 PM
+then we will have to start slowly as how we can integrate with CDP :slightly_smiling_face:
+
+
+Christoph Brücke-Wendorff
+:zap:  9:49 AM
+Hey Manoj. I totally forgot but I wanted to take the half day of today. I mentioned it briefly in last sprint planning but forgot to request it in Workday. Is it okay if I do it now?
+9:50
+That also means I cannot make it to our 1on1 today
+
+
+Manojkumar Gupta (Manoj)
+  9:50 AM
+sure sure. no problem
+9:50
+we can skip our 1:1 today if you dont have anything to discuss
+
+
+Christoph Brücke-Wendorff
+:zap:  9:51 AM
+I do like our discussion but yeah not really
+
+
+Manojkumar Gupta (Manoj)
+  9:55 AM
+yes yes. same here.. :slightly_smiling_face: will cancel our 1:1 for today then
+:+1:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  4:25 PM
+Hey Manoj I will not come to the office tomorrow due to the strike. It seems as if my train operator is affected as well
+:+1:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  12:53 PM
+Hi Chris
+
+
+Christoph Brücke-Wendorff
+:zap:  12:53 PM
+Hey
+
+
+Manojkumar Gupta (Manoj)
+  12:53 PM
+I want to search if there multi-preference stored in dwh. how do you proceed?
+
+
+Christoph Brücke-Wendorff
+:zap:  12:54 PM
+I don't really know what that is. Does it mean a single subscription can have multiple preferences>
+
+
+Manojkumar Gupta (Manoj)
+  12:55 PM
+yes. Basically where does this data go and sit.
+12:55
+image.png
+ 
+image.png
+
+
+Christoph Brücke-Wendorff
+:zap:  12:58 PM
+hmm looking at meal_plan related assets it seems they are all assuming that there's only one preference
+
+
+Manojkumar Gupta (Manoj)
+  1:00 PM
+this data is captured. someone must to storing somewhere. Last communication with Cooper and James was it is not stored in DWH/Backend
+1:00
+What I know is that this data still there in GAevents
+
+
+Christoph Brücke-Wendorff
+:zap:  1:02 PM
+but is there a backend service that's handling this data? Maybe we could start searching from this angle
+
+
+Manojkumar Gupta (Manoj)
+  1:04 PM
+There was a idea to build survey service. we dont know what is the status of it. we are figuring-out the owners (edited) 
+1:05
+meanwhile, I thought if there is way to dig it out from DWH or not
+
+
+Christoph Brücke-Wendorff
+:zap:  1:06 PM
+I don't see an easy way from the top of my head. I can try to do a small investigation tomorrow
+1:10
+I'll ask around
+
+
+Manojkumar Gupta (Manoj)
+  1:11 PM
+Sure sure.
+1:12
+I have reached-out to 
+@Theo
+ anyways. Waiting for his response though
+
+
+Christoph Brücke-Wendorff
+:zap:  9:17 AM
+Good morning Manoj. I'll arrive approx 15 min late to our culture amp meeting.
+
+
+Manojkumar Gupta (Manoj)
+  9:30 AM
+Sure no problem
+
+
+Manojkumar Gupta (Manoj)
+  2:31 PM
+Hi Chris
+I think you are one of reviewer, please write feedback for me.
+
+
+Christoph Brücke-Wendorff
+:zap:  2:32 PM
+Oh wow. Why is the deadline so short? I wasn't there this morning
+2:32
+But I will
+
+
+Manojkumar Gupta (Manoj)
+  2:33 PM
+Thanks :slightly_smiling_face:
+
+
+Manojkumar Gupta (Manoj)
+  3:39 PM
+Hi Chris
+
+
+Christoph Brücke-Wendorff
+:zap:  3:41 PM
+Hey
+
+
+Manojkumar Gupta (Manoj)
+  3:41 PM
+For Harp CA ETL data quality check, DS saying that they are blocked because of our work. how did we do this in case of Harp GB? Didnt backtesting independent of DE work?
+
+
+Christoph Brücke-Wendorff
+:zap:  3:45 PM
+somewhat. but to fully test it they need to see how many weeks in advance they have how many recipes. For that they need the ETL
+3:46
+but we have it planned for this sprint and I'll start with it tomorrow. I talked to them and a low effort implementation, i.e. taking the GB etl and simply run it in CA as well is enough for them. So without data analysis on our end
+:+1:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:34 AM
+Hi Chris, Good morning!
+
+
+Christoph Brücke-Wendorff
+:zap:  10:34 AM
+Hey Manoj!
+
+
+Manojkumar Gupta (Manoj)
+  10:34 AM
+I joined standup late. how we are progressing on Harp CA DE ETL?
+
+
+Christoph Brücke-Wendorff
+:zap:  10:35 AM
+it's pretty much done.
+10:35
+It has to be merged to test it with live data though
+10:36
+@Manjunatha Sannavenkatappa
+ will review it today and then I'll merge it
+
+
+Manojkumar Gupta (Manoj)
+  10:36 AM
+Investigation ticket still in progress? anything pending in that?
+
+
+Christoph Brücke-Wendorff
+:zap:  10:36 AM
+yes checking the platter availability is the only thing missing
+:+1:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:37 AM
+Did you try reaching to the MLS team? how you verify?
+
+
+Christoph Brücke-Wendorff
+:zap:  10:38 AM
+I'll just query the data on each execution date and check for how many weeks in the future the embeddings exist
+10:38
+That's more reliable than what 
+@Ebrahim Kargar
+ will say :wink:
+:face_with_peeking_eye:
+1
+
+10:38
+But for the whole last week they had operational problems. So they didn't produce any embeddings
+
+
+Manojkumar Gupta (Manoj)
+  10:39 AM
+how many past week data we are looking for?
+
+
+Christoph Brücke-Wendorff
+:zap:  10:39 AM
+@Farideh Samadi
+ and 
+@Zlata Tanovic
+ are on it though
+10:40
+ how many past week data we are looking for?
+It's more about how many weeks into the future. The prodcut reqs are not defined yet, but at least we want to know what we can provide right now
+10:40
+At least 6 weeks out to be available one week before activation
+:ty:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:44 AM
+Let me know if you find any blocker here
+
+
+Christoph Brücke-Wendorff
+:zap:  10:44 AM
+I will ... thanks
+
+
+Christoph Brücke-Wendorff
+:zap:  9:56 AM
+Hey Manoi I have a conflict today with our 1-on-1. Can we move it to next week?
+
+
+Manojkumar Gupta (Manoj)
+  9:56 AM
+sure
+
+
+Christoph Brücke-Wendorff
+:zap:  8:38 AM
+Good morning Manoj. My wife is sick in bed and I have to bring my daughter from and to Kindergarten. I also feel a little sick, I'll work from home today.
+
+
+Manojkumar Gupta (Manoj)
+  9:20 AM
+Sure Chris. Please take care!!
+
+
+Christoph Brücke-Wendorff
+:zap:  9:33 AM
+Thank you
+
+
+Christoph Brücke-Wendorff
+:zap:  12:20 PM
+Hey. We're going to potluck for lunch if you want to join
+
+
+Manojkumar Gupta (Manoj)
+  10:31 AM
+Hi Chris, you might have to raise a WFH for today.
+10:31
+I am sorry for saying this. I really cant help with this rules :disappointed:
+
+
+Christoph Brücke-Wendorff
+:zap:  10:34 AM
+ok .. workday?
+
+
+Manojkumar Gupta (Manoj)
+  10:50 AM
+yes yes
+
+
+Christoph Brücke-Wendorff
+:zap:  3:01 PM
+can you give me 5min?
+
+
+Manojkumar Gupta (Manoj)
+  3:01 PM
+sure
+
+hangouts
+APP  3:01 PM
+@Manoj
+ has started a Google+ Hangout and would like you to join. Join Hangout.
+
+
+Manojkumar Gupta (Manoj)
+  3:03 PM
+want to connect now?
+
+
+Manojkumar Gupta (Manoj)
+  10:17 AM
+Hi Chris
+10:18
+joining our standup?
+
+
+Christoph Brücke-Wendorff
+:zap:  10:19 AM
+Yes. I'm in the meeting
+
+
+Manojkumar Gupta (Manoj)
+  10:36 AM
+Ah.. We just finished standup in person
+
+
+Christoph Brücke-Wendorff
+:zap:  10:42 AM
+oh darn.
+10:42
+I give my update in the channel
+
+
+Manojkumar Gupta (Manoj)
+  10:42 AM
+Sure sure
+10:44
+Update regarding your WFH: I spoke to Jurgen about your situation. He will be talking to HR and Dilip about it
+
+
+Christoph Brücke-Wendorff
+:zap:  10:46 AM
+Thank you very much
+
+
+Manojkumar Gupta (Manoj)
+  1:07 PM
+Hey Chris,
+Update on Work-from-office Topic: Jurgen mentioned to me that he cant do much. Rule will become stricter starting 1-Jun. everyone has to follow it. it will create problem for people who don’t adhere to it.
+However, I reached out to HR 
+@Priscila Bonnes
+ about it if she can do anything here. I will follow-up with her. lets see what happens
+
+
+Christoph Brücke-Wendorff
+:zap:  1:11 PM
+Ok thanks for pushing for it
+1:11
+I really appreciate it
+:pray:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:16 AM
+Hi Chris
+
+
+Christoph Brücke-Wendorff
+:zap:  10:17 AM
+Hey. Just arrived at Moritzplatz
+10:17
+In Person standup?
+
+
+Manojkumar Gupta (Manoj)
+  10:17 AM
+Nice. We are having standup near p13n bay
+10:17
+please join
+
+
+Christoph Brücke-Wendorff
+:zap:  10:18 AM
+Will do
+
+
+Manojkumar Gupta (Manoj)
+  8:52 AM
+Hi Chris
+8:52
+Good morning!
+
+
+Christoph Brücke-Wendorff
+:zap:  9:02 AM
+Hey good morning
+
+
+Manojkumar Gupta (Manoj)
+  9:18 AM
+I have spoken with 
+@Priscila Bonnes
+ and 
+@juergen.helmers
+ . Have some update for you. Lets discuss. I got into a meeting. will ping you
+
+
+Christoph Brücke-Wendorff
+:zap:  9:22 AM
+Sure
+
+
+Manojkumar Gupta (Manoj)
+  11:17 AM
+do you have time now?
+11:20
+Sorry, just finished some meeting. I am available.
+
+
+Christoph Brücke-Wendorff
+:zap:  11:35 AM
+Hey sorry haven't seen your message. Yes I'm availabe
+
+hangouts
+APP  11:38 AM
+@Manoj
+ has started a Google+ Hangout and would like you to join. Join Hangout.
+
+
+Christoph Brücke-Wendorff
+:zap:  2:14 PM
+Hey Manoj. I know it's a bit late but would it be possible that I take next week off?
+
+
+Manojkumar Gupta (Manoj)
+  2:19 PM
+Sure. How many days?
+
+
+Christoph Brücke-Wendorff
+:zap:  2:19 PM
+whole weelk
+2:19
+5 days (edited) 
+
+
+Manojkumar Gupta (Manoj)
+  2:19 PM
+Go ahead. Hope everything is fine.
+2:21
+Update on remote contract: I have sent for the approval to Dilip and Tim
+Next step would be, raise it in workday with approved letter
+Meanwhile, please raise a request for domestic remote if you are working from home.
+
+
+Christoph Brücke-Wendorff
+:zap:  2:22 PM
+ok thank you so much
+2:22
+You're the best :smile:
+:pray:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  4:01 PM
+Update on remote contract: I got approval from Dilip and other leadership.
+raised request in workday “HR-020939:Temprorary remote contract”
+
+
+Christoph Brücke-Wendorff
+:zap:  4:04 PM
+Cool thanks.
+
+
+Christoph Brücke-Wendorff
+:zap:  4:49 PM
+hey manoj my daugter is sick and will be staying home tomorrow. I have to take care of her until lunch. I'm gonna request a remote day tomorrow, ok?
+
+
+Manojkumar Gupta (Manoj)
+  4:50 PM
+Sure sure. no problem. Please do raise request for your prev WFH as well
+:+1:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  5:14 PM
+Hi Chris, Request for Remote contract has been rejected, Unfortunately, I could not help in whole approval process.
+
+
+Christoph Brücke-Wendorff
+:zap:  12:00 PM
+Oh ok. So HR rejected even though Dilip and Jürgen approved?
+
+1 reply
+5 months agoView thread
+
+
+Christoph Brücke-Wendorff
+:zap:  10:57 AM
+Hey Manoj. I had a call with Jürgen yesterday about my RTO situation. I now filed for a transfer hearing (hardship case) with the Works Council. They should get back at me within a week.
+
+
+Manojkumar Gupta (Manoj)
+  10:58 AM
+Sure sure no problem
+10:59
+Thanks for update
+
+
+Manojkumar Gupta (Manoj)
+  9:38 AM
+Hi Chris
+9:38
+Good morning!
+9:38
+Did you hear anything from WoCo on your case?
+
+
+Christoph Brücke-Wendorff
+:zap:  9:40 AM
+Hey Manoj. Not yet. It said they'll answer within 6 business days which would be next week
+
+
+Manojkumar Gupta (Manoj)
+  9:41 AM
+sure sure. this hardship is about remote contract, is it? (edited) 
+
+
+Christoph Brücke-Wendorff
+:zap:  9:42 AM
+Yes I think
+
+
+Manojkumar Gupta (Manoj)
+  9:42 AM
+nice. Hopefully get things done in your favour.
+
+
+Christoph Brücke-Wendorff
+:zap:  9:46 AM
+Absolutely
+
+
+Manojkumar Gupta (Manoj)
+  2:05 PM
+Hi Chris
+2:05
+joining.
+
+
+Christoph Brücke-Wendorff
+:zap:  2:05 PM
+Hey. I'm in the google meeting
+
+
+Manojkumar Gupta (Manoj)
+  2:06 PM
+https://meet.google.com/ryi-zazx-ppe?authuser=0
+meet.google.commeet.google.com
+Meet
+Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.
+
+
+Manojkumar Gupta (Manoj)
+  2:44 PM
+Hey Chris, Any ETA you got from WoCo for Hardship?
+
+
+Manojkumar Gupta (Manoj)
+  11:37 AM
+Hi Chris
+
+
+Christoph Brücke-Wendorff
+:zap:  11:37 AM
+Hey Manoj
+
+
+Manojkumar Gupta (Manoj)
+  11:38 AM
+quick call?
+
+
+Christoph Brücke-Wendorff
+:zap:  11:38 AM
+sxure
+
+hangouts
+APP  11:38 AM
+@Manoj
+ has started a Google+ Hangout and would like you to join. Join Hangout.
+
+
+Manojkumar Gupta (Manoj)
+  10:16 AM
+joining our standup
+
+
+Manojkumar Gupta (Manoj)
+  4:31 PM
+Hi Chris
+4:31
+Sorry, I missed our 1:1. I thought it is at 4:30pm
+4:31
+if you are okay, can we connect now?
+
+
+Christoph Brücke-Wendorff
+:zap:  4:34 PM
+sure
+
+
+Manojkumar Gupta (Manoj)
+  4:46 PM
+https://www.linkedin.com/in/manojkumarssgupta/
+:ty:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  10:02 AM
+Hey Manoj. I had a train delay on my ride home yesterday and was eventually home after midnight. I won't come to the office today.
+
+
+2 replies
+Last reply 4 months agoView thread
+
+
+Manojkumar Gupta (Manoj)
+  10:27 AM
+Please do create tickets in jira board for the task / support you have worked in this sprint or update story points in current task
+:+1:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  9:44 AM
+Good morning Manoj. I want to attend an online seminar today and would like to take 0,5 of my LnD days for that. I will be available and work normally but won't be able to come to the office today. I hope that's okay.
+
+
+Manojkumar Gupta (Manoj)
+  9:45 AM
+As per policy, one has to come to office on Tuesday, Thursday and Friday. :white_frowning_face:
+
+
+Christoph Brücke-Wendorff
+:zap:  9:46 AM
+Even if I take a day off for Learning and Development in workday?
+
+
+Manojkumar Gupta (Manoj)
+  9:57 AM
+Yes, Please go ahead. I think that should work.
+
+
+Manojkumar Gupta (Manoj)
+  2:59 PM
+Hi Chris, I will move our 1:1 as officially you are on leave :slightly_smiling_face:
+:ty:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  9:47 AM
+Hi Manoj. My hand injury is bleeding again. It's fine I just need to change the bandage regularly. I would take a sick leave today just to stay home. But I'll be working anyway. Sounds good?
+
+
+Manojkumar Gupta (Manoj)
+  10:16 AM
+Sure Chris.. Take care!!
+
+
+Manojkumar Gupta (Manoj)
+  2:51 PM
+Hi Chris
+2:51
+Let me know if you want to connect today
+
+
+Christoph Brücke-Wendorff
+:zap:  2:53 PM
+Not urgently. We can reschedule to monday so you can get some rest.
+
+
+Manojkumar Gupta (Manoj)
+  3:01 PM
+So let me reschedule
+
+
+Christoph Brücke-Wendorff
+:zap:  9:52 AM
+Hey Manoj. I'm still not feeling too well and have a cold. In order to not infect any of you. I'll stay home today and take a sick leave (will work on my tickets though)
+
+
+Manojkumar Gupta (Manoj)
+  9:57 AM
+Sure sure
+9:57
+No worries
+9:57
+Take care.. do apply leave in workday
+
+
+Christoph Brücke-Wendorff
+:zap:  1:13 PM
+Hey Manoj. Sorry for the late notices. But I got a sick note for me and my daughter for this whole week. I think next week I'm fully back and can focus on our tickets.
+
+
+Manojkumar Gupta (Manoj)
+  1:36 PM
+Sure Chris. Please do apply on workday for office policy purpose
+1:39
+Hope your daughter is fine. I think it is also weather. I see many others have cold and cough (edited) 
+
+
+Christoph Brücke-Wendorff
+:zap:  1:42 PM
+Yes all good. Cold like symptoms with fever for all of us. The doctor said there's some Mycoplasma pneumoniae going around at the moment, she took a sample but the results will take until Wednesday. If so we need antibiotics.
+
+
+Manojkumar Gupta (Manoj)
+  1:43 PM
+Ah ok. Please take care.. take rest. dont worry about the work and all.
+
+
+Manojkumar Gupta (Manoj)
+  11:14 AM
+Hi Chris, You have not submit your foodie. Please see if you can still submit or not.
+
+
+Christoph Brücke-Wendorff
+:zap:  11:27 AM
+Hey Manoj . Thanks for the heads up. I completely forgot about it while I was sick.
+:pray:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  10:09 AM
+Hi Chris, Good morning!
+Please do find sometime to submit your foodie :slightly_smiling_face:
+
+
+Christoph Brücke-Wendorff
+:zap:  10:11 AM
+Sure I will.
+:ty:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  12:24 PM
+Hi Chris
+
+
+Christoph Brücke-Wendorff
+:zap:  12:32 PM
+Hey
+
+
+Manojkumar Gupta (Manoj)
+  12:38 PM
+Some questions on tardis epic. If you have time, we can discuss for sometime
+
+
+Christoph Brücke-Wendorff
+:zap:  12:39 PM
+Sure. Just let me finish my lunch. Maybe in 15-30 mins?
+
+
+Manojkumar Gupta (Manoj)
+  12:39 PM
+sure sure. no problem
+
+
+Christoph Brücke-Wendorff
+:zap:  12:55 PM
+Ok I'm here
+
+
+Manojkumar Gupta (Manoj)
+  1:21 PM
+Lets quickly catch-up on this.
+
+hangouts
+APP  1:21 PM
+@Manoj
+ has started a Google+ Hangout and would like you to join. Join Hangout.
+
+
+Manojkumar Gupta (Manoj)
+  4:32 PM
+Hi Chris
+4:32
+are you joining the call?
+
+
+Manojkumar Gupta (Manoj)
+  2:58 PM
+Hi Chris, I think in demo deck, link is not correct
+2:58
+can you check once
+
+
+Christoph Brücke-Wendorff
+:zap:  3:01 PM
+hmm works for me. You have to download the html file and run it locally though
+
+
+Manojkumar Gupta (Manoj)
+  3:01 PM
+ah ok
+
+
+Christoph Brücke-Wendorff
+:zap:  3:35 PM
+hey. are you joiining the 1-1?
+
+
+Manojkumar Gupta (Manoj)
+  3:36 PM
+current meeting getting extending. I will join in 5 mins. Apologies!!
+
+
+Christoph Brücke-Wendorff
+:zap:  3:36 PM
+ok. no worries
+
+
+Manojkumar Gupta (Manoj)
+  3:45 PM
+Joining
+:+1:
+1
+
+
+
+Manojkumar Gupta (Manoj)
+  9:00 AM
+Hi Chris, good morning!
+When we will be completing lyre-ml pipeline migration?
+9:01
+Our Data engineering task has been in very slow progress, what do you think? Do you think we could do something here?
+
+
+Christoph Brücke-Wendorff
+:zap:  9:08 AM
+I could open a PR for lyre-ml but the data is not ready. Do you think I should open a PR in draft, close the ticket, and start working on customer behaviour?
+9:09
+I think customer_behaviour is more important right now for closing tardis migration.
+
+
+Christoph Brücke-Wendorff
+:zap:  9:15 AM
+And I agree with your assessment of the slow progress, IMHO there are a couple of factors:
+I was too ambitious with the changes, I wanted to solve all the problems at once but I don't know how else since these early design decisions impact future initiatives
+Over time we had a solution in mind that didn't involve tardis and to be honest tardis is just not as capable as Airflow + Cosmos + dbt
+
+
+Manojkumar Gupta (Manoj)
+  9:17 AM
+I think so.. Lets create a PR in draft and we come back to it later. Lets focus on customer behavior
+9:18
+Is tardis team aware of our requirements? We have dependency mapping for 2025. If you share small write up then i can ask them to look into it next year and plan properly
+
+
+Christoph Brücke-Wendorff
+:zap:  9:19 AM
+I can do it. Can it wait till next week?
+9:19
+Can we have a quick call?
+
+
+Manojkumar Gupta (Manoj)
+  9:23 AM
+Yes, i will mark as dependecy. Give me two or three lines of description and next week you onboard me with details that we will take up to discuss with Tardis/data platform team.
+9:25
+Today was last date but we got it extended for this week. We can connect tomorrow for this. You can create PR for lyre-ml. And lets start customer behavior task
+9:26
+We can create follow up ticket and for end to end testing we should be creating anyways
+9:26
+If basic skeleton working fine then we can conclude this ticket
+
+
+Manojkumar Gupta (Manoj)
+  8:13 AM
+Hi Chris
+8:13
+Good morning!
+8:14
+after yesterday’s call i think we have simplified the data need and at the same time we are building scalable and one time solution. Thank you so much for taking up the discussion.
+8:16
+Would you like to post the summary of yesterday’s call on respective channel?
+
+
+Christoph Brücke-Wendorff
+:zap:  9:27 AM
+Yes I can do it. But after you've left they gave us another big problem that they have when forecasting and that is predicting the allocation. So when the experiment start we have 0% loyalty 0 customers allocated to the experiment but as time goes on this number grows. Now we can make an educated guess  about the number of allocated customers week+1 after the experiment start , but this is also something only we now since we're setting up the experiment. 
+@Paritosh Gupta
+ and I are trying to create a solution where we give an estimate for every customer choice (no-pork+no-beef, no-pork, etc.). But yet another problem is we cannot do that yet (it seems) since we don't know the distribution of these selectections. Once we have them, after first customers had this feature available, we can forecast the distribution of the multipreference/protein exclusion distribution and combine that with the forecast of the customer allocations and the real distribution of default slots and have a pretty accurate forecast
+9:27
+I'll write a more concise summary in the channel
+
+
+Manojkumar Gupta (Manoj)
+  9:30 AM
+Yes, please. Did we discuss what MVP and good-to-have sort of stuff?
+
+
+Christoph Brücke-Wendorff
+:zap:  9:31 AM
+yes. paritosh already has an mvp for the allocation forecast I'll just need to add the multi-preference data to my solution and then we can combine the data
+
+
+Manojkumar Gupta (Manoj)
+  9:32 AM
+Sure. I think we can state what is MVP to start experiment on w47 and good-to-have. Leadership only cares for Protein exclusion project and bare minimum data needed for forecasting. We can discuss in planning as well.
+
+
+Christoph Brücke-Wendorff
+:zap:  9:34 AM
+just for context. protein exclusion and multi-preference cause different rules to take effect in CMS/RBE but are both communicated via multipreference string, right?
+
+
+Manojkumar Gupta (Manoj)
+  9:36 AM
+you mean preselection string?
+
+
+Christoph Brücke-Wendorff
+:zap:  9:37 AM
+I mean how does a customer select no-pork/no-beef? Is it also via the survey where they can also select the multiple preferences?
+9:37
+and is it part of the profile service data then?
+
+
+Manojkumar Gupta (Manoj)
+  9:39 AM
+Multipreference is preference selection while customer onboarding.. And Protein exclusion is Survey
+
+
+Christoph Brücke-Wendorff
+:zap:  9:39 AM
+got it thanks.
+9:40
+btw could you approve my atlan editor access. I need it to write data assset documentation in atlan
+9:40
+https://hellofresh.atlassian.net/browse/DIMS-1366
+
+DIMS-1366 Request access in Atlan
+Status: Waiting for approval
+Type: Atlan data catalog access
+Assignee: Christina Kotanidi
+Priority: Normal
+More actions...
+Added by Jira Cloud
+
+
+Manojkumar Gupta (Manoj)
+  9:40 AM
+Done
+:ty:
+1
+
+
+
+Christoph Brücke-Wendorff
+:zap:  11:21 AM
+btw. here are my recent changes for lyre_customer_behaviour on tardis. Can you approve? https://github.com/hellofresh/tardis-community/pull/4955
+
+#4955 P13N-2925 Enrich lyre_customer_behaviour
+Description
+• add more data to lyre_customer_behaviour
+Reference
+https://hellofresh.atlassian.net/browse/P13N-2925
+Onboarding checklist
+• I have read onboarding guidelines at https://hellodev.hellofresh.io/project/tardis/docs/onboarding/
+• I have added my tribe folder inside pipelines/ to .github/CODEOWNERS file
+• For staging environment I have added my tribe folder name inside infrastructure/staging
+• For staging environment I have created tribe-name_squad-name.yaml file inside infrastructure/staging/data-platform/azure-airflow
+• For live environment I have added my tribe folder name inside infrastructure/live
+Show more
+Labels
+tribe: checkout-experience, squad: personalization
+Comments
+1
+<https://github.com/hellofresh/tardis-community|hellofresh/tardis-community>hellofresh/tardis-community | Nov 8th | Added by GitHub
+
+
+Christoph Brücke-Wendorff
+:zap:  9:27 AM
+Hey Manoj. I'll be 10 min late to our meeting
+
+
+
+
+NEW
+
+
+
+Christoph Brücke-Wendorff
+:zap:  9:43 AM
+oh you've moved the meeting, ignore my previous message then
+
+
+
+
+NEW
+
+
+
+Manojkumar Gupta (Manoj)
+  10:10 AM
+Yeah. I wanted to give sometime so that you and Manju wrap up the work and then we connect and RIP this project
+
+
+
+
+NEW
+
+10:11
+Manju said he would like connect with you
+
+
+
+
+NEW
+
+10:11
+Is there anything pending for data assets which Paritosh was looking for?
+
+
+
+
+NEW
+
+
+
+Christoph Brücke-Wendorff
+:zap:  10:11 AM
+cool. Do you have 10 minutes so that I can give you an quick overview over the forecasting issue, so that you have some context what has been blocking me from working on lyre_customer_behaviour?
+
+
+
+
+NEW
+
+
+
+Manojkumar Gupta (Manoj)
+  10:15 AM
+Sure.
+
+
+
+
+NEW
+
+A huddle happened  10:15 AM
+You and Manojkumar Gupta (Manoj) were in the huddle for 24m.
+
+
+
+
+NEW
+
+
+
+Christoph Brücke-Wendorff
+:zap:  8:40 AM
+Hey Manoj. This morning I had an appointment with the employment agency and hence left my hometown later. I'll arrive at 12 at Alexander platz and would directly come to the team lunch . (edited) 
+
+
+
+
+NEW
+
+
+
+Manojkumar Gupta (Manoj)
+  8:58 AM
+Sure Chris. No worries.
